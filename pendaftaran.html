@@ -1,0 +1,214 @@
+<html>
+    <head>
+        <title>Pedaftaran Siswa Baru tahun 2021</title>
+        <style>
+            body{
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: small;
+            }
+            .bintang a{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Jika Ada Kesulitan Silahkan Hubungi Customer Service kami</p>
+        <table width="100%">
+            <form action="" method="post">
+            <tr>
+                <td colspan="2" style="background-color:lightgrey; font-weight: bold;"> A. IDENTITAS SISWA</td>
+            </tr>
+            <tr class="bintang">
+                <td>Upload Foto Ukuran 4x6.<a>*</a></td>
+                <td><input type="file" required name="foto">Ubah Nama file Menjadi "Nama_Anda.jpg" <a>; nama tidak dipisah</a></td>
+            </tr>
+            <tr>
+                <td class="bintang">NIK<a> *</a></td>
+                <td><input type="text" name="nik" id></td>
+            </tr>
+            <tr>
+                <td class="bintang">Nama Lengkap<a> *</a></td>
+                <td><input type="text" name="nama lengkap" id="" ></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td><input type="radio" name="jk" value="laki-laki">Laki-laki
+                <input type="radio" name="jk" value="perempuan">Perempuan</td>        
+            </tr>
+            <tr>
+                <td>Golongan Darah</td>
+                <td><input type="radio" name="goldar" value="a">A
+                <input type="radio" name="goldar" value="B">B
+                <input type="radio" name="goldar" value="o">O
+                <input type="radio" name="goldar" value="ab">AB
+                <input type="radio" name="goldar" value="none">Tidak Tahu</td>
+            </tr>
+            <tr>
+                <td class="bintang">Tempat Lahir<a>*</a></td>
+                <td><input type="text" name="tempa lahir" id=""></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td>
+                    <select name="day">
+                        <option value="tanggal;">Tanggal</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                        <option value="">13</option>
+                        <option value="">14</option>
+                        <option value="">15</option>
+                        <option value="">16</option>
+                        <option value="">17</option>
+                        <option value="">18</option>
+                        <option value="">19</option>
+                        <option value="">20</option>
+                        <option value="">21</option>
+                        <option value="">22</option>
+                        <option value="">23</option>
+                        <option value="">24</option>
+                        <option value="">25</option>
+                        <option value="">26</option>
+                        <option value="">27</option>
+                        <option value="">28</option>
+                        <option value="">29</option>
+                        <option value="">30</option>
+                        <option value="">31</option>
+                    </select>
+                    <select name="month" id="">
+                        <option value="bulan">Bulan</option>
+                        <option value="">Januari</option>
+                        <option value="">Februari</option>
+                        <option value="">Maret</option>
+                        <option value="">April</option>
+                        <option value="">Mei</option>
+                        <option value="">Juni</option>
+                        <option value="">Juli</option>
+                        <option value="">Agustus</option>
+                        <option value="">September</option>
+                        <option value="">Oktober</option>
+                        <option value="">November </option>
+                        <option value="">Desember</option>
+                    </select>
+                    <select name="year" id="">
+                        <option value="">Tahun</option>
+                        <option value="">1996</option>
+                        <option value="">1997</option>
+                        <option value="">1998</option>
+                        <option value="">1999</option>
+                        <option value="">2000</option>
+                        <option value="">2001</option>
+                        <option value="">2002</option>
+                        <option value="">2003</option>
+                        <option value="">2004</option>
+                        <option value="">2005</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="bintang">Agama<a>*</a></td>
+                <td>
+                    <select name="agama" id="">
+                        <option >-Pilih-</option>
+                        <option value="Islam">Islam</option>
+                        <option value="kristen">Kriten</option>
+                        <option value="katoiik">Katolik</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="budha">Budha</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="bintang">Status Perkawinan<a>*</a></td>
+                <td>
+                    <input type="radio" name="statusnikah" value="sudah"> Sudah Menikah
+                    <input type="radio" name="statusnikah" value="belum">Belum Menikah
+                </td>
+            </tr>
+            <tr>
+                <td>Kewarganegaraan</td>
+                <td><select name="kewarganegaraan" id="">
+                    <option>Pilih</option>
+                    <option value="wni">WNI</option>
+                    <option value="wna">WNA</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td class="bintang">Alamat<a>*</a></td>
+                <td><textarea name="alamat" id="" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Kode Pos</td>
+                <td><input type="text" name="kodepos" id="">Tidak Tahu Kode Pos Anda? Cari <a href="https://carikodepos.com/" target="blank">disini</a>"</td>
+            </tr>
+            <tr>
+                <td>Propinsi</td>
+                <td><select name="propinsi" id="">
+                    <option>Pilih</option>
+                    <option value="jawa tengah">Jawa Tengah</option>
+                    <option value="jawa barat">Jawa Barat</option>
+                    <option value="Jawa Timur">Jawa Timur</option>
+                    <option value="kalimantan barat">Kalimantan Barat</option>
+                    <option value="kalimantan selatan">Kalimantan Selatan</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Kota/Kabupaten</td>
+                <td><input type="text" name="kota/kabupaten" id=""></td>
+            </tr>
+            <tr><td>Telepon</td>
+                <td><input type="text" name="telp" id=""></td>
+            </tr>
+            <tr>
+                <td class="bintang">Handphone<a>*</a></td>
+                <td> <input type="text" name="hp" id=""></td>
+            </tr>
+            <tr>
+                <td class="bintang">Email<a>*</a></td>
+                <td><input type="text" name="email" id=""></td>
+            </tr>
+            <tr>
+                <td class="bintang">Nama Ayah/Wali<a>*</a></td>
+                <td><input type="text" name="nama ayah" id=""></td>
+            </tr>
+            <tr>
+                <td class="bintang">Pekerjaan Ayah/Wali<a>*</a></td>
+                <td><select name="pekerjaan" id="">
+                    <option value="">pilih</option>
+                    <option value="pns">PNS</option>
+                    <option value="swasta">Swasta</option>
+                    <option value="wiraswasta">Wiraswasta</option>
+                    <option value="buruh">Buruh</option>
+                    <option value="pedagang">Pedagang</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td class="bintang">Nama Ibu/Wali<a>*</a></td>
+                <td><input type="text" name="nama ibu" id=""></td>
+            </tr>
+            <tr>
+                <td class="bintang">Pekerjaan Ibu/Wali<a>*</a></td>
+                <td><select name="pekerjaan" id="">
+                    <option value="">pilih</option>
+                    <option value="pns">PNS</option>
+                    <option value="swasta">Ibu Rumah Tangga</option>
+                    <option value="wiraswasta">Wiraswasta</option>
+                    <option value="buruh">Buruh</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2"><button>Submit</button></td>
+            </tr>
+        </form>
+        </table>
+    </body>
+</html>
